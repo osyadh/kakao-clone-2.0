@@ -10,6 +10,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -40,14 +41,14 @@
     </header>
     <main class="friends">
       <header class="freinds__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img
               src="images/avatar.jpg"
               alt=""
               class="friend__avatar g-avatar"
             />
-            <div class="firend__content">
+            <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
               </span>
@@ -62,12 +63,8 @@
         <h5 class="friends__title">Plus Friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              src="images/avatar.jpg"
-              alt=""
-              class="friend__avatar g-avatar"
-            />
-            <div class="firend__content">
+            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
               </span>
@@ -77,30 +74,24 @@
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__plus">
-          <div class="friends__friend friend">
-            <div class="friend__column">
-              <img
-                src="images/avatar.jpg"
-                alt=""
-                class="friend__avatar g-avatar"
-              />
-              <div class="firend__content">
-                <span class="friend__name">
-                  Nicolas Serrano
-                </span>
-                <span class="friend__status">
-                  nomadcoders.co
-                </span>
-              </div>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Nicolas Serrano
+              </span>
+              <span class="friend__status">
+                nomadcoders.co
+              </span>
             </div>
-            <div class="friend__column">
-              <div class="friend__now-listening">
-                <span>
-                  FTISLAND (FT Nomadcoders)
-                </span>
-                <i class="fas fa-play"></i>
-              </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                FTISLAND (FT Nomadcoders)
+              </span>
+              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
@@ -130,5 +121,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please Make Your Screen Smaller</span>
+    </div>
   </body>
 </html>
